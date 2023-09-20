@@ -1,0 +1,36 @@
+import prompt
+import random
+from brain_games.cli import welkome_user
+
+
+def random_number():
+    return random.randint(1, 100)
+
+def even_number(number):
+    return 'yes' if number % 2 == 0 else 'no'
+
+
+def main():
+    points = 0
+    name = welkome_user()
+    print('Answer "yes" if the number is even, otherwise answer "no".')
+    while points < 3:
+        number = random_number()
+        print(f"Question: {number}")
+        your_answer = prompt.string("Your answer: ")
+        correct_answer = even_number(number)
+        if correct_answer == your_answer:
+            print('Correct!')
+            points += 1
+        else:
+            print(f"'{your_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'")
+            break
+    print(f"Congratulations, {name}!" if points == 3 else f"Let's try again, {name}")
+
+if __name__ == "__main__":
+    main()
+
+
+
+
+
