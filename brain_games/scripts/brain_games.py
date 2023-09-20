@@ -6,5 +6,6 @@ def main():
     print("Welkome to the Brain Games!")
     welkome_user()
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     main()
