@@ -11,20 +11,18 @@
 - [Установка пакета](#установка-пакета)
 - [Четные числа](#четные-числа)
 - [Калькулятор](#калькулятор)
+- [НОД](#НОД)
 
 ## Технологии
 - [Python3](https://www.python.org/)
 
 ## Установка пакета
-- Для установки переходим в папку программы:
-```sh
-cd hexlet/python-project-49/
-```
+
 - Вводим команду для установки пакета
 ```sh
-make package-install
+python3 -m pip install --user git+https://github.com/pavelkoA/python-project-49.git
 ```
-https://asciinema.org/a/E2LOlpx31D4wqNMsoemVzikm7
+https://asciinema.org/a/RIBhHalJr9wkaOyeKZyUMSAxl
 
 ## Четные числа
 
@@ -59,4 +57,18 @@ https://asciinema.org/a/LrpbmcwGRWePB2W1BQHNpt01e
 
 
 
+## НОД
 
+Наибольший общий делитель (НОД)
+Игра предложит вам два числа. Вы должны в ответе ввести наибольший делитель обоих чисел
+
+- Запуск игры
+```sh
+brain-gcd
+```
+
+Игра продолжается пока вы не ответите на три вопроса:
+https://asciinema.org/a/3mZfQaCf55aDMfkGUQdSRol2w
+
+Либо пока вы не дадите неверный ответ:
+https://asciinema.org/a/4yXJNT7TVjrAJfIl68QRCyjMt
