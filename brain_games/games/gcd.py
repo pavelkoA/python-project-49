@@ -14,5 +14,3 @@ def gcd(name):
         your_answer = question(f'{str(num1)} {str(num2)}')
         points += answer(your_answer, correct_answer)
     print(f"Congratulations, {name}!" if points == 3 else f"Let's try again, {name}")
-   
-gcd('Artem')
