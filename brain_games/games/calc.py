@@ -1,5 +1,4 @@
 import random
-import prompt
 from brain_games.cli import answer, question
 
 

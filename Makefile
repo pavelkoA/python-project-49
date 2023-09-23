@@ -6,6 +6,8 @@ brain-even:
 	poetry run brain-even
 brain-calc:
 	poetry run brain-calc
+brain_gcd:
+	poetry run brain_gcd
 build:
 	poetry build
 publish:
