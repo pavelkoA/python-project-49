@@ -13,6 +13,7 @@
 - [Калькулятор](#калькулятор)
 - [НОД](#НОД)
 - [Арифметическая прогрессия](#арифметическая-прогрессия)
+- [Простое ли число?](#простое-ли-число?)
 
 ## Технологии
 - [Python3](https://www.python.org/)
@@ -84,7 +85,22 @@ brain-progression
 ```
 
 Игра продолжается пока вы не ответите на три вопроса:
-https://asciinema.org/a/UFrnVoC4lw5P3I7BFsJFEEzUF
+https://asciinema.org/a/UNZ4QoJ0PewlufbJagLfXmyU7
 
 Либо пока вы не дадите неверный ответ:
-https://asciinema.org/a/5H7OZKr9DgFfTHKwItexGceIE
+https://asciinema.org/a/NRdlyKHo1XorxMjHIYhvbLDHQ
+
+## Простое ли число?
+
+Игра предложит число, вам нужно ответить простое оно(yes) или нет(no)
+
+- Запуск игры
+```sh
+brain-prime
+```
+
+Игра продолжается пока вы не ответите на три вопроса:
+https://asciinema.org/a/LRN1CX6MRnOAhuGzp3EScP6iP
+
+Либо пока вы не дадите неверный ответ:
+https://asciinema.org/a/o2aIo82hGFjKmD6jIfsz8df8T

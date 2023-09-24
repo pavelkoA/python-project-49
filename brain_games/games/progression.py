@@ -4,7 +4,7 @@ from brain_games.cli import answer, question, end_string
 
 def progression(name):
     points = 0
-    print('What is the result of the expression?')
+    print('What number is missing in the progression?')
     while points < 3:
         start_num = random.randint(1, 100)
         step = random.randint(1, 10)
