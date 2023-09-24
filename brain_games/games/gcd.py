@@ -1,5 +1,6 @@
-import random 
-from brain_games.cli import question, answer
+import random
+from brain_games.cli import question, answer, end_string
+
 
 def gcd(name):
     points = 0
@@ -13,4 +14,4 @@ def gcd(name):
                 correct_answer = str(i)
         your_answer = question(f'{str(num1)} {str(num2)}')
         points += answer(your_answer, correct_answer)
-    print(f"Congratulations, {name}!" if points == 3 else f"Let's try again, {name}")
+    end_string(points, name)

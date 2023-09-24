@@ -1,5 +1,5 @@
 import random
-from brain_games.cli import answer, question
+from brain_games.cli import answer, question, end_string
 
 
 def calc(name):
@@ -19,4 +19,4 @@ def calc(name):
                 correct_answer = str(num1 * num2)
         your_answer = question(f'{str(num1)} {operac} {str(num2)}')
         points += answer(your_answer, correct_answer)
-    print(f"Congratulations, {name}!" if points == 3 else f"Let's try again, {name}")
+    end_string(points, name)
