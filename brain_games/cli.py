@@ -13,7 +13,7 @@ def answer(your, correct):
         print('Correct!')
         return 1
     else:
-        print(f"'{your}' is wrong answer ;(. Correct answer was '{correct}'")
+        print(f"Your answer: '{your}' is wrong answer ;(. Correct answer was '{correct}'")
         return 5
 
 
