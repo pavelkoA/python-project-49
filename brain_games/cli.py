@@ -26,4 +26,4 @@ def end_string(points, name):
     if points == 3:
         print(f"Congratulations, {name}!")
     else:
-        print(f"Let's try again, {name}")
+        print(f"Let's try again, {name}!")
