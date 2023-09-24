@@ -8,6 +8,8 @@ brain-calc:
 	poetry run brain-calc
 brain_gcd:
 	poetry run brain_gcd
+brain-progression:
+	poetry run brain_progression
 build:
 	poetry build
 publish:
