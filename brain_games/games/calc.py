@@ -1,5 +1,5 @@
 import random
-from brain_games.cli import answer, question, end_string
+from brain_games.games.game_logic import answer, question, end_string
 
 
 def calc(name):

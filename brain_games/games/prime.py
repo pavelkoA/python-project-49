@@ -1,5 +1,5 @@
 import random
-from brain_games.cli import question, answer, end_string
+from brain_games.games.game_logic import question, answer, end_string
 
 
 def prime(name):
