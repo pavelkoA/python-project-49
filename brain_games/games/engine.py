@@ -2,7 +2,7 @@ import prompt
 from brain_games.games.lexicon import lexicon
 
 
-def game(name, game_name, game_function):
+def game(name: str, game_name: str, game_function):
     points = 0
     print(lexicon[game_name])
     while points != 3:
