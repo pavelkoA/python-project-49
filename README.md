@@ -16,6 +16,7 @@
 
 ## Технологии
 - [Python3](https://www.python.org/)
+- [prompt](https://pypi.org/project/prompt/)
 
 ## Установка пакета
 
