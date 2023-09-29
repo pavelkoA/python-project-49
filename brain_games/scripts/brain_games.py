@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from brain_games.cli import welkome_user
+from brain_games.engine import welkome_user
 
 
 def main():
