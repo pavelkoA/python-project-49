@@ -14,7 +14,8 @@ def calculate(num1, num2, operac):
 
 
 def play_calc():
+    matemat_operac = ['+', '-', '*']
     num1, num2 = get_rnd_num(amount=2)
-    operac = get_rnd_choice(['+', '-', '*'])
+    operac = get_rnd_choice(matemat_operac)
     correct_answer = calculate(num1, num2, operac)
     return f'{str(num1)} {operac} {str(num2)}', correct_answer

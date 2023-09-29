@@ -3,13 +3,6 @@ import random
 from brain_games.lexicon import lexicon
 
 
-def welkome_user():
-    print("Welcome to the Brain Games!")
-    name = prompt.string("May I have your name? ")
-    print(f"Hello, {name}!")
-    return name
-
-
 def get_rnd_choice(lst) -> str:
     return random.choice(lst)
 
