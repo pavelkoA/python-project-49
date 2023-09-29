@@ -1,5 +1,6 @@
 from brain_games.engine import get_rnd_num, get_rnd_choice
 
+
 def calculate(num1, num2, operac):
     correct_answer = 0
     match operac:

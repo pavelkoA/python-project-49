@@ -9,6 +9,7 @@ def devide_prime(num):
             break
     return correct_answer
 
+
 def play_prime():
     num = get_rnd_num()
     correct_answer = devide_prime(num)
