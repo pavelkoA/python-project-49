@@ -11,6 +11,6 @@ def devide_prime(num):
 
 
 def play_prime():
-    num = get_rnd_num()
+    num = get_rnd_num(start_num=2)
     correct_answer = devide_prime(num)
     return str(num), correct_answer
