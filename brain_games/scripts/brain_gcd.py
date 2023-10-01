@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
+
 from brain_games.games.gcd import play_gcd
-from brain_games.cli import welkome_user
-from brain_games.engine import play_game
+from brain_games.engine import play_game, welkome_user
 
 
 def main():
