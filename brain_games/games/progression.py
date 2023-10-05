@@ -1,5 +1,5 @@
 
-from brain_games.engine import get_rnd_num, get_rnd_choice
+from brain_games.rnd_utils import get_rnd_num, get_rnd_choice
 
 
 def generate_progres_list():

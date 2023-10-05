@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
 from brain_games.games.progression import play_progression
-from brain_games.engine import play_game, welkome_user
+from brain_games.engine import play_game, welcome_user
 
 
 def main():
-    name = welkome_user()
+    name = welcome_user()
     name_game = 'progression'
     play_game(name, name_game, play_progression)
 
