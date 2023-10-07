@@ -8,7 +8,7 @@ NAME_GAME_GCD = 'gcd'
 
 def gcd_game():
     num1, num2 = get_rnd_num(amount=2)
-    correct_answer = gcd(num1, num2)
+    correct_answer = str(gcd(num1, num2))
     return f'{str(num1)} {str(num2)}', correct_answer
 
 
