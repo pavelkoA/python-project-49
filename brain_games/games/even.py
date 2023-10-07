@@ -1,6 +1,8 @@
 from brain_games.rnd_utils import get_rnd_num
 from brain_games.engine import play_game
 
+NAME_GAME_EVEN = 'even'
+
 
 def get_even(number):
     return 'yes' if number % 2 == 0 else 'no'
@@ -13,5 +15,4 @@ def even_game():
 
 
 def play_even():
-    name_game = 'calc'
-    play_game(name_game, even_game)
+    play_game(NAME_GAME_EVEN, even_game)

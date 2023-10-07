@@ -1,5 +1,9 @@
 
 from brain_games.rnd_utils import get_rnd_num, get_rnd_choice
+from brain_games.engine import play_game
+
+
+NAME_GAME_PROGRESSION = 'progression'
 
 
 def generate_progres_list():
@@ -13,8 +17,12 @@ def generate_progres_list():
     return progres_list
 
 
-def play_progression():
+def progression_game():
     progres_list = generate_progres_list()
     correct_answer = get_rnd_choice(progres_list)
     progres_list[progres_list.index(correct_answer)] = '..'
     return " ".join(progres_list), correct_answer
+
+
+def play_progression():
+    play_game(NAME_GAME_PROGRESSION, progression_game)

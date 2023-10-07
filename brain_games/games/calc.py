@@ -2,6 +2,9 @@ from brain_games.rnd_utils import get_rnd_num, get_rnd_choice
 from brain_games.engine import play_game
 
 
+NAME_GAME_CALC = 'calc'
+
+
 def calculate(num1, num2, oper):
     correct_answer = 0
     match oper:
@@ -23,5 +26,4 @@ def calc_game():
 
 
 def play_calc():
-    name_game = 'calc'
-    play_game(name_game, calc_game)
+    play_game(NAME_GAME_CALC, calc_game)
