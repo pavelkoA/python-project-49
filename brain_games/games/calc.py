@@ -3,12 +3,12 @@ from brain_games.engine import play_game
 
 
 NAME_GAME_CALC = 'calc'
+MATH_OPER = ['+', '-', '*']
 
 
 def calc_game():
-    math_oper = ['+', '-', '*']
     num1, num2 = get_rnd_num(amount=2)
-    oper = get_rnd_choice(math_oper)
+    oper = get_rnd_choice(MATH_OPER)
     oper_string = f'{str(num1)} {oper} {str(num2)}'
     correct_answer = str(eval(oper_string))
     return oper_string, correct_answer

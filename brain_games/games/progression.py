@@ -4,14 +4,14 @@ from brain_games.engine import play_game
 
 
 NAME_GAME_PROGRESSION = 'progression'
+PROGRES_LENGTH = 10
 
 
 def generate_progres_list():
     start_num = get_rnd_num()
     step = get_rnd_num(end_num=10)
-    progres_length = 10
     progres_list = []
-    while len(progres_list) != progres_length:
+    while len(progres_list) != PROGRES_LENGTH:
         progres_list.append(str(start_num))
         start_num += step
     return progres_list
