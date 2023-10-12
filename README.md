@@ -86,10 +86,10 @@ brain-progression
 ```
 
 Игра продолжается пока вы не ответите на три вопроса:
-https://asciinema.org/a/UNZ4QoJ0PewlufbJagLfXmyU7
+<a href="https://asciinema.org/a/UNZ4QoJ0PewlufbJagLfXmyU7" target="_blank"><img src="https://asciinema.org/a/UNZ4QoJ0PewlufbJagLfXmyU7.svg" /></a>
 
 Либо пока вы не дадите неверный ответ:
-https://asciinema.org/a/NRdlyKHo1XorxMjHIYhvbLDHQ
+<a href="https://asciinema.org/a/NRdlyKHo1XorxMjHIYhvbLDHQ" target="_blank"><img src="https://asciinema.org/a/NRdlyKHo1XorxMjHIYhvbLDHQ.svg" /></a>
 
 ## Простое ли число?
 
