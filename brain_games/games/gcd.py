@@ -1,9 +1,7 @@
+from math import gcd
 from brain_games.rnd_utils import get_rnd_num
 from brain_games.engine import play_game
-from math import gcd
-
-
-DESC_GCD = 'Find the greatest common divisor of given numbers.'
+from brain_games.constant import DESC_GCD
 
 
 def gcd_game():

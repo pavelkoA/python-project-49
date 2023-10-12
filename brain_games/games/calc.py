@@ -1,9 +1,6 @@
 from brain_games.rnd_utils import get_rnd_num, get_rnd_choice
 from brain_games.engine import play_game
-from brain_games.constant import MATH_OPER
-
-
-DESC_CALC = 'What is the result of the expression?'
+from brain_games.constant import MATH_OPER, DESC_CALC
 
 
 def calc_game():
