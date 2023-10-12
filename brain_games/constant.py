@@ -1,0 +1,3 @@
+GAME_STEP = 3
+PROGRES_LENGTH = 10
+MATH_OPER = ['+', '-', '*']

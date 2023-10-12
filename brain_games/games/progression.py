@@ -1,10 +1,10 @@
 
 from brain_games.rnd_utils import get_rnd_num, get_rnd_choice
 from brain_games.engine import play_game
+from brain_games.constant import PROGRES_LENGTH
 
 
-NAME_GAME_PROGRESSION = 'progression'
-PROGRES_LENGTH = 10
+description = 'What number is missing in the progression?'
 
 
 def generate_progres_list():
@@ -25,4 +25,4 @@ def progression_game():
 
 
 def play_progression():
-    play_game(NAME_GAME_PROGRESSION, progression_game)
+    play_game(description, progression_game)

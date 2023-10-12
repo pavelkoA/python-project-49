@@ -1,9 +1,9 @@
 from brain_games.rnd_utils import get_rnd_num, get_rnd_choice
 from brain_games.engine import play_game
+from brain_games.constant import MATH_OPER
 
 
-NAME_GAME_CALC = 'calc'
-MATH_OPER = ['+', '-', '*']
+description = 'What is the result of the expression?'
 
 
 def calc_game():
@@ -15,4 +15,4 @@ def calc_game():
 
 
 def play_calc():
-    play_game(NAME_GAME_CALC, calc_game)
+    play_game(description, calc_game)
