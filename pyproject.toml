@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = "brain games project"
+description = "is magic brain games, will help keep your brain in good shape"
 license = "MIT"
 authors = ["pavelkoA <pavelko88@mail.ru>"]
 readme = "README.md"
