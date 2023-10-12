@@ -25,7 +25,7 @@
 ```sh
 python3 -m pip install --user git+https://github.com/pavelkoA/python-project-49.git
 ```
-https://asciinema.org/a/RIBhHalJr9wkaOyeKZyUMSAxl
+<a href="https://asciinema.org/a/RIBhHalJr9wkaOyeKZyUMSAxl" target="_blank"><img src="https://asciinema.org/a/RIBhHalJr9wkaOyeKZyUMSAxl.svg" /></a>
 
 ## Четные числа
 
@@ -37,10 +37,10 @@ brain-even
 ```
 
 Игра продолжается пока вы не ответите на три вопроса:
-https://asciinema.org/a/u9d8Z7xMjEngrX369FTzeYYfI
+<a href="https://asciinema.org/a/u9d8Z7xMjEngrX369FTzeYYfI" target="_blank"><img src="https://asciinema.org/a/u9d8Z7xMjEngrX369FTzeYYfI.svg" /></a>
 
 Либо пока вы не дадите неверный ответ:
-https://asciinema.org/a/NyRsMKvM08C0Nq20vISOHmzgl
+<a href="https://asciinema.org/a/NyRsMKvM08C0Nq20vISOHmzgl" target="_blank"><img src="https://asciinema.org/a/NyRsMKvM08C0Nq20vISOHmzgl.svg" /></a>
 
 
 ## Калькулятор
@@ -53,10 +53,10 @@ brain-calc
 ```
 
 Игра продолжается пока вы не ответите на три вопроса:
-https://asciinema.org/a/HnPuUonOEgI0w7IXz3rzaILzY
+<a href="https://asciinema.org/a/HnPuUonOEgI0w7IXz3rzaILzY" target="_blank"><img src="https://asciinema.org/a/HnPuUonOEgI0w7IXz3rzaILzY.svg" /></a>
 
 Либо пока вы не дадите неверный ответ:
-https://asciinema.org/a/LrpbmcwGRWePB2W1BQHNpt01e
+<a href="https://asciinema.org/a/LrpbmcwGRWePB2W1BQHNpt01e" target="_blank"><img src="https://asciinema.org/a/LrpbmcwGRWePB2W1BQHNpt01e.svg" /></a>
 
 
 
@@ -71,10 +71,10 @@ brain-gcd
 ```
 
 Игра продолжается пока вы не ответите на три вопроса:
-https://asciinema.org/a/3mZfQaCf55aDMfkGUQdSRol2w
+<a href="https://asciinema.org/a/3mZfQaCf55aDMfkGUQdSRol2w" target="_blank"><img src="https://asciinema.org/a/3mZfQaCf55aDMfkGUQdSRol2w.svg" /></a>
 
 Либо пока вы не дадите неверный ответ:
-https://asciinema.org/a/4yXJNT7TVjrAJfIl68QRCyjMt
+<a href="https://asciinema.org/a/4yXJNT7TVjrAJfIl68QRCyjMt" target="_blank"><img src="https://asciinema.org/a/4yXJNT7TVjrAJfIl68QRCyjMt.svg" /></a>
 
 ## Арифметическая прогрессия
 
@@ -101,7 +101,7 @@ brain-prime
 ```
 
 Игра продолжается пока вы не ответите на три вопроса:
-https://asciinema.org/a/LRN1CX6MRnOAhuGzp3EScP6iP
+<a href="https://asciinema.org/a/LRN1CX6MRnOAhuGzp3EScP6iP" target="_blank"><img src="https://asciinema.org/a/LRN1CX6MRnOAhuGzp3EScP6iP.svg" /></a>
 
 Либо пока вы не дадите неверный ответ:
-https://asciinema.org/a/o2aIo82hGFjKmD6jIfsz8df8T
+[![asciicast](https://asciinema.org/a/o2aIo82hGFjKmD6jIfsz8df8T.svg)](https://asciinema.org/a/o2aIo82hGFjKmD6jIfsz8df8T)
