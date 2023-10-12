@@ -3,7 +3,7 @@ from brain_games.engine import play_game
 from brain_games.constant import MATH_OPER
 
 
-description = 'What is the result of the expression?'
+DESC_CALC = 'What is the result of the expression?'
 
 
 def calc_game():
@@ -15,4 +15,4 @@ def calc_game():
 
 
 def play_calc():
-    play_game(description, calc_game)
+    play_game(DESC_CALC, calc_game)

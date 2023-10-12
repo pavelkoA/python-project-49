@@ -2,7 +2,7 @@ from brain_games.rnd_utils import get_rnd_num
 from brain_games.engine import play_game
 
 
-description = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+DESC_PRIME = 'Answer "yes" if given number is prime.Otherwise answer "no".'
 
 
 def is_prime(num):
@@ -21,4 +21,4 @@ def prime_game():
 
 
 def play_prime():
-    play_game(description, prime_game)
+    play_game(DESC_PRIME, prime_game)

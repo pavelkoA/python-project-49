@@ -4,7 +4,7 @@ from brain_games.engine import play_game
 from brain_games.constant import PROGRES_LENGTH
 
 
-description = 'What number is missing in the progression?'
+DESC_PROGRESSION = 'What number is missing in the progression?'
 
 
 def generate_progres_list():
@@ -25,4 +25,4 @@ def progression_game():
 
 
 def play_progression():
-    play_game(description, progression_game)
+    play_game(DESC_PROGRESSION, progression_game)

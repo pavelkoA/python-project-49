@@ -1,7 +1,7 @@
 from brain_games.rnd_utils import get_rnd_num
 from brain_games.engine import play_game
 
-description = 'Answer "yes" if the number is even, otherwise answer "no".'
+DESC_EVEN = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def get_even(number):
@@ -15,4 +15,4 @@ def even_game():
 
 
 def play_even():
-    play_game(description, even_game)
+    play_game(DESC_EVEN, even_game)
