@@ -1,6 +1,6 @@
 
 from brain_games.rnd_utils import get_rnd_num, get_rnd_choice
-from brain_games.engine import play_game
+from brain_games.engine import launch_games
 from brain_games.constant import PROGRES_LENGTH, DESC_PROGRESSION
 
 
@@ -21,5 +21,5 @@ def progression_game():
     return " ".join(progres_list), correct_answer
 
 
-def play_progression():
-    play_game(DESC_PROGRESSION, progression_game)
+def start_game_progression():
+    launch_games(DESC_PROGRESSION, progression_game)

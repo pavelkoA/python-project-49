@@ -1,5 +1,5 @@
 # game parameters
-GAME_STEP = 3
+NUMBER_OF_STEPS = 3
 PROGRES_LENGTH = 10
 MATH_OPER = ['+', '-', '*']
 

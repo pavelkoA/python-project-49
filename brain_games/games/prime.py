@@ -1,5 +1,5 @@
 from brain_games.rnd_utils import get_rnd_num
-from brain_games.engine import play_game
+from brain_games.engine import launch_games
 from brain_games.constant import DESC_PRIME
 
 
@@ -18,5 +18,5 @@ def prime_game():
     return str(num), correct_answer
 
 
-def play_prime():
-    play_game(DESC_PRIME, prime_game)
+def start_game_prime():
+    launch_games(DESC_PRIME, prime_game)
