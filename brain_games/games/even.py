@@ -4,14 +4,14 @@ from brain_games.constant import DESC_EVEN
 
 
 def is_even(number):
-    return 'yes' if number % 2 == 0 else 'no'
+    return number % 2 == 0
 
 
-def even_game():
+def get_task_game_even():
     number = get_rnd_num()
-    correct_answer = is_even(number)
+    correct_answer = 'yes' if is_even(number) else 'no'
     return str(number), correct_answer
 
 
 def start_game_even():
-    launch_games(DESC_EVEN, even_game)
+    launch_games(DESC_EVEN, get_task_game_even)

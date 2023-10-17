@@ -1,11 +1,4 @@
 import random
-from brain_games.constant import MATH_OPER
-
-
-def get_rnd_math_expression() -> str:
-    num1, num2 = get_rnd_num(amount=2)
-    math_sign = random.choice(MATH_OPER)
-    return f'{str(num1)} {math_sign} {str(num2)}'
 
 
 def get_rnd_choice(lst) -> str:
