@@ -1,7 +1,7 @@
 # game parameters
 NUMBER_OF_STEPS = 3
 PROGRES_LENGTH = 10
-MATH_OPER = ['+', '-', '*']
+MATH_OPERATIONS = ['+', '-', '*']
 
 # game description
 DESC_PRIME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
