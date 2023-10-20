@@ -2,7 +2,7 @@ import prompt
 from brain_games.constant import NUMBER_OF_STEPS
 
 
-def launch_games(description: str, game_function):
+def start_engine_games(description: str, game_function):
     name = prompt.string("Welcome to the Brain Games!\n"
                          "May I have your name? ")
     print(f"Hello, {name}!\n"
