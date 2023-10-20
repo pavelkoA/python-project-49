@@ -1,5 +1,5 @@
 
-from brain_games.rnd_utils import get_rnd_num, get_rnd_choice
+from brain_games.rnd_utils import get_rnd_num
 from brain_games.engine import start_engine_games
 from brain_games.constant import PROGRES_LENGTH, DESC_PROGRESSION
 
@@ -10,7 +10,6 @@ def get_progression_list():
     progres_list = [str(start_num + step * (number - 1))
                     for number in range(PROGRES_LENGTH)]
     return progres_list
-
 
 
 def get_task_game_progression():
