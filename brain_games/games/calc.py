@@ -3,7 +3,7 @@ from brain_games.engine import lauche_game_engine
 from brain_games.constant import DESC_CALC, MATH_OPERATIONS
 
 
-def get_math_calculations(num1, num2, math_sign):
+def get_math_calculations(num1, num2):
     math_sign = get_rnd_choice(MATH_OPERATIONS)
     match math_sign:
         case '+':
