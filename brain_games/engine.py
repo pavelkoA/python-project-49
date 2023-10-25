@@ -2,14 +2,14 @@ import prompt
 from brain_games.constant import NUMBER_OF_STEPS
 
 
-def lauche_game_engine(description: str, getting_game):
+def lauche_game_engine(description: str, get_question_and_answer):
     name = prompt.string("Welcome to the Brain Games!\n"
                          "May I have your name? ")
     print(f"Hello, {name}!\n"
           f"{description}")
     for _ in range(NUMBER_OF_STEPS):
-        exercise, correct_answer = getting_game()
-        your_answer = prompt.string(f"Question: {exercise}\n"
+        question, correct_answer = get_question_and_answer()
+        your_answer = prompt.string(f"Question: {question}\n"
                                     f"Your answer: ")
         if correct_answer == your_answer:
             print('Correct!')
