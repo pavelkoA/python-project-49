@@ -1,5 +1,4 @@
-
-from brain_games.rnd_utils import get_rnd_num
+from brain_games.rnd_utils import get_rnd_num, get_rnd_choice
 from brain_games.engine import lauche_game_engine
 from brain_games.constant import PROGRES_LENGTH, DESC_PROGRESSION
 
@@ -14,9 +13,9 @@ def get_progression_list():
 
 def get_progression_str_and_answer():
     progression_list = get_progression_list()
-    rnd_index = get_rnd_num(end_num=PROGRES_LENGTH - 1)
-    correct_answer = progression_list[rnd_index]
-    progression_list[rnd_index] = '..'
+    correct_answer = get_rnd_choice(progression_list)
+    index_number_answer = progression_list.index(correct_answer)
+    progression_list[index_number_answer] = '..'
     return " ".join(progression_list), correct_answer
 
 

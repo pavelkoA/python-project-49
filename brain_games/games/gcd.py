@@ -8,11 +8,11 @@ def get_gcd(num1, num2):
     return str(gcd(num1, num2))
 
 
-def get_gcd_and_answer():
+def get_numbers_and_gcd():
     num1, num2 = get_rnd_num(amount=2)
     correct_answer = get_gcd(num1, num2)
     return f'{num1} {num2}', correct_answer
 
 
 def start_game_gcd():
-    lauche_game_engine(DESC_GCD, get_gcd_and_answer)
+    lauche_game_engine(DESC_GCD, get_numbers_and_gcd)

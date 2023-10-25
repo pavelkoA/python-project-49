@@ -10,11 +10,11 @@ def is_prime(num):
     return True
 
 
-def get_number_and_answer():
+def get_required_number_and_answer():
     num = get_rnd_num(start_num=2)
     correct_answer = 'yes' if is_prime(num) else 'no'
     return str(num), correct_answer
 
 
 def start_game_prime():
-    lauche_game_engine(DESC_PRIME, get_number_and_answer)
+    lauche_game_engine(DESC_PRIME, get_required_number_and_answer)
