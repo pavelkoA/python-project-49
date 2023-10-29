@@ -1,20 +1,20 @@
-from brain_games.rnd_utils import get_rnd_num
-from brain_games.engine import run_game_engine
+from brain_games.rnd_utils import get_random_number
+from brain_games.engine import run_game
 from brain_games.constant import DESC_PRIME
 
 
-def is_prime(num):
-    for i in range(2, num):
-        if num % i == 0:
+def is_prime(number):
+    for i in range(2, number):
+        if number % i == 0:
             return False
     return True
 
 
 def get_required_number_and_answer():
-    num = get_rnd_num(start_num=2)
-    correct_answer = 'yes' if is_prime(num) else 'no'
-    return num, correct_answer
+    number = get_random_number(start_num=2)
+    correct_answer = 'yes' if is_prime(number) else 'no'
+    return number, str(correct_answer)
 
 
 def start_game_prime():
-    run_game_engine(DESC_PRIME, get_required_number_and_answer)
+    run_game(DESC_PRIME, get_required_number_and_answer)

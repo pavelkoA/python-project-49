@@ -1,25 +1,27 @@
-from brain_games.rnd_utils import get_rnd_num, get_rnd_choice
-from brain_games.engine import run_game_engine
+from brain_games.rnd_utils import get_random_number, get_rnd_choice
+from brain_games.engine import run_game
 from brain_games.constant import DESC_CALC, MATH_OPERATIONS
 
 
-def get_math_calculations(num1, num2, math_sign):
+def get_math_calculations(number_first, number_second, math_sign):
     match math_sign:
         case '+':
-            return num1 + num2
+            return number_first + number_second
         case "-":
-            return num1 - num2
+            return number_first - number_second
         case "*":
-            return num1 * num2
+            return number_first * number_second
 
 
 def get_math_expession_and_answer():
-    num1, num2 = get_rnd_num(), get_rnd_num()
+    number_first, number_second = get_random_number(), get_random_number()
     math_sign = get_rnd_choice(MATH_OPERATIONS)
-    correct_answer = get_math_calculations(num1, num2, math_sign)
-    oper_string = f'{num1} {math_sign} {num2}'
-    return oper_string, correct_answer
+    correct_answer = get_math_calculations(number_first,
+                                           number_second,
+                                           math_sign)
+    oper_string = f'{number_first} {math_sign} {number_second}'
+    return oper_string, str(correct_answer)
 
 
 def start_game_calc():
-    run_game_engine(DESC_CALC, get_math_expession_and_answer)
+    run_game(DESC_CALC, get_math_expession_and_answer)
