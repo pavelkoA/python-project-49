@@ -5,6 +5,7 @@
 <h1>ИГРЫ РАЗУМА</h1>
 
 Проект представляет собой набор из пяти игр на проверку математических знаний.
+Игры предложат ответить на три вопроса, в случае неверного ответа - игра завершится:
 
 ## Содержание
 - [Технологии](#технологии)
@@ -36,8 +37,6 @@ python3 -m pip install --user git+https://github.com/pavelkoA/python-project-49.
 brain-even
 ```
 
-Игра продолжается пока вы не ответите на три вопроса. Либо пока вы не дадите неверный ответ:
-
 <a href="https://asciinema.org/a/v7n5aOAkbemlpi4vfVXcdKPsI" target="_blank"><img src="https://asciinema.org/a/v7n5aOAkbemlpi4vfVXcdKPsI.svg" /></a>
 
 
@@ -49,8 +48,6 @@ brain-even
 ```sh
 brain-calc
 ```
-
-Игра продолжается пока вы не ответите на три вопроса. Либо пока вы не дадите неверный ответ:
 
 <a href="https://asciinema.org/a/ANX60ReZiVTl4DXqNsTWh4iXr" target="_blank"><img src="https://asciinema.org/a/ANX60ReZiVTl4DXqNsTWh4iXr.svg" /></a>
 
@@ -65,8 +62,6 @@ brain-calc
 brain-gcd
 ```
 
-Игра продолжается пока вы не ответите на три вопроса. Либо пока вы не дадите неверный ответ:
-
 <a href="https://asciinema.org/a/rr0KPcb7iImSvtkBhCqi3qHec" target="_blank"><img src="https://asciinema.org/a/rr0KPcb7iImSvtkBhCqi3qHec.svg" /></a>
 
 
@@ -79,8 +74,6 @@ brain-gcd
 brain-progression
 ```
 
-Игра продолжается пока вы не ответите на три вопроса. Либо пока вы не дадите неверный ответ:
-
 <a href="https://asciinema.org/a/pR7NKIlKjdyH0jawubxu1KQ3n" target="_blank"><img src="https://asciinema.org/a/pR7NKIlKjdyH0jawubxu1KQ3n.svg" /></a>
 
 
@@ -92,7 +85,5 @@ brain-progression
 ```sh
 brain-prime
 ```
-
-Игра продолжается пока вы не ответите на три вопроса. Либо пока вы не дадите неверный ответ:
 
 <a href="https://asciinema.org/a/VCrg9AQVK7slD7QY1EKa8VUZi" target="_blank"><img src="https://asciinema.org/a/VCrg9AQVK7slD7QY1EKa8VUZi.svg" /></a>
