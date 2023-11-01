@@ -52,12 +52,8 @@ brain-even
 brain-calc
 ```
 
-Игра продолжается пока вы не ответите на три вопроса:
-<a href="https://asciinema.org/a/HnPuUonOEgI0w7IXz3rzaILzY" target="_blank"><img src="https://asciinema.org/a/HnPuUonOEgI0w7IXz3rzaILzY.svg" /></a>
-
-Либо пока вы не дадите неверный ответ:
-<a href="https://asciinema.org/a/LrpbmcwGRWePB2W1BQHNpt01e" target="_blank"><img src="https://asciinema.org/a/LrpbmcwGRWePB2W1BQHNpt01e.svg" /></a>
-
+Игра продолжается пока вы не ответите на три вопроса, либо пока вы не дадите неверный ответ 
+<a href="https://asciinema.org/a/ANX60ReZiVTl4DXqNsTWh4iXr" target="_blank"><img src="https://asciinema.org/a/ANX60ReZiVTl4DXqNsTWh4iXr.svg" /></a>
 
 
 ## НОД
