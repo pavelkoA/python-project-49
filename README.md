@@ -36,11 +36,9 @@ python3 -m pip install --user git+https://github.com/pavelkoA/python-project-49.
 brain-even
 ```
 
-Игра продолжается пока вы не ответите на три вопроса:
-<a href="https://asciinema.org/a/u9d8Z7xMjEngrX369FTzeYYfI" target="_blank"><img src="https://asciinema.org/a/u9d8Z7xMjEngrX369FTzeYYfI.svg" /></a>
+Игра продолжается пока вы не ответите на три вопроса. Либо пока вы не дадите неверный ответ:
 
-Либо пока вы не дадите неверный ответ:
-<a href="https://asciinema.org/a/NyRsMKvM08C0Nq20vISOHmzgl" target="_blank"><img src="https://asciinema.org/a/NyRsMKvM08C0Nq20vISOHmzgl.svg" /></a>
+<a href="https://asciinema.org/a/v7n5aOAkbemlpi4vfVXcdKPsI" target="_blank"><img src="https://asciinema.org/a/v7n5aOAkbemlpi4vfVXcdKPsI.svg" /></a>
 
 
 ## Калькулятор
@@ -52,7 +50,8 @@ brain-even
 brain-calc
 ```
 
-Игра продолжается пока вы не ответите на три вопроса, либо пока вы не дадите неверный ответ 
+Игра продолжается пока вы не ответите на три вопроса. Либо пока вы не дадите неверный ответ:
+
 <a href="https://asciinema.org/a/ANX60ReZiVTl4DXqNsTWh4iXr" target="_blank"><img src="https://asciinema.org/a/ANX60ReZiVTl4DXqNsTWh4iXr.svg" /></a>
 
 
@@ -66,11 +65,10 @@ brain-calc
 brain-gcd
 ```
 
-Игра продолжается пока вы не ответите на три вопроса:
-<a href="https://asciinema.org/a/3mZfQaCf55aDMfkGUQdSRol2w" target="_blank"><img src="https://asciinema.org/a/3mZfQaCf55aDMfkGUQdSRol2w.svg" /></a>
+Игра продолжается пока вы не ответите на три вопроса. Либо пока вы не дадите неверный ответ:
 
-Либо пока вы не дадите неверный ответ:
-<a href="https://asciinema.org/a/4yXJNT7TVjrAJfIl68QRCyjMt" target="_blank"><img src="https://asciinema.org/a/4yXJNT7TVjrAJfIl68QRCyjMt.svg" /></a>
+<a href="https://asciinema.org/a/rr0KPcb7iImSvtkBhCqi3qHec" target="_blank"><img src="https://asciinema.org/a/rr0KPcb7iImSvtkBhCqi3qHec.svg" /></a>
+
 
 ## Арифметическая прогрессия
 
@@ -81,11 +79,10 @@ brain-gcd
 brain-progression
 ```
 
-Игра продолжается пока вы не ответите на три вопроса:
-<a href="https://asciinema.org/a/UNZ4QoJ0PewlufbJagLfXmyU7" target="_blank"><img src="https://asciinema.org/a/UNZ4QoJ0PewlufbJagLfXmyU7.svg" /></a>
+Игра продолжается пока вы не ответите на три вопроса. Либо пока вы не дадите неверный ответ:
 
-Либо пока вы не дадите неверный ответ:
-<a href="https://asciinema.org/a/NRdlyKHo1XorxMjHIYhvbLDHQ" target="_blank"><img src="https://asciinema.org/a/NRdlyKHo1XorxMjHIYhvbLDHQ.svg" /></a>
+<a href="https://asciinema.org/a/pR7NKIlKjdyH0jawubxu1KQ3n" target="_blank"><img src="https://asciinema.org/a/pR7NKIlKjdyH0jawubxu1KQ3n.svg" /></a>
+
 
 ## Простое ли число?
 
@@ -96,8 +93,6 @@ brain-progression
 brain-prime
 ```
 
-Игра продолжается пока вы не ответите на три вопроса:
-<a href="https://asciinema.org/a/LRN1CX6MRnOAhuGzp3EScP6iP" target="_blank"><img src="https://asciinema.org/a/LRN1CX6MRnOAhuGzp3EScP6iP.svg" /></a>
+Игра продолжается пока вы не ответите на три вопроса. Либо пока вы не дадите неверный ответ:
 
-Либо пока вы не дадите неверный ответ:
-[![asciicast](https://asciinema.org/a/o2aIo82hGFjKmD6jIfsz8df8T.svg)](https://asciinema.org/a/o2aIo82hGFjKmD6jIfsz8df8T)
+<a href="https://asciinema.org/a/VCrg9AQVK7slD7QY1EKa8VUZi" target="_blank"><img src="https://asciinema.org/a/VCrg9AQVK7slD7QY1EKa8VUZi.svg" /></a>
