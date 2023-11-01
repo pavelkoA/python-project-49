@@ -1,4 +1,4 @@
-from brain_games.rnd_utils import get_random_number
+from brain_games.utils import get_random_number
 from brain_games.engine import run_game
 from brain_games.constant import DESC_PRIME
 
