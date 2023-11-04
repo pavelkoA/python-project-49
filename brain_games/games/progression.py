@@ -14,7 +14,7 @@ def get_progression_with_missing_number(progression_list, correct_answer):
     return " ".join(map(str, progression_list))
 
 
-def get_progression_str_and_answer():
+def get_progression_str_and_missed_num():
     start_number_progression = get_random_number()
     step_progression = get_random_number(end_num=10)
     progression_list = get_progression_list(start_number_progression,
@@ -26,4 +26,4 @@ def get_progression_str_and_answer():
 
 
 def start_game_progression():
-    run_game(DESC_PROGRESSION, get_progression_str_and_answer)
+    run_game(DESC_PROGRESSION, get_progression_str_and_missed_num)

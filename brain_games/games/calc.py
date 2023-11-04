@@ -13,7 +13,7 @@ def get_math_calculation(number_first, number_second, math_sign):
             return number_first * number_second
 
 
-def get_math_expession_and_answer():
+def get_math_expession_and_result():
     number_first, number_second = get_random_number(), get_random_number()
     math_sign = get_rnd_choice(MATH_OPERATIONS)
     correct_answer = get_math_calculation(number_first,
@@ -24,4 +24,4 @@ def get_math_expession_and_answer():
 
 
 def start_game_calc():
-    run_game(DESC_CALC, get_math_expession_and_answer)
+    run_game(DESC_CALC, get_math_expession_and_result)

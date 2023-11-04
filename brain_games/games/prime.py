@@ -11,9 +11,9 @@ def is_prime(number):
 
 
 def get_required_number_and_answer():
-    number = get_random_number(start_num=2)
-    correct_answer = 'yes' if is_prime(number) else 'no'
-    return number, str(correct_answer)
+    problem_number = get_random_number(start_num=2)
+    correct_answer = 'yes' if is_prime(problem_number) else 'no'
+    return problem_number, str(correct_answer)
 
 
 def start_game_prime():
