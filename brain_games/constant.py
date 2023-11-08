@@ -4,7 +4,7 @@ PROGRES_LENGTH = 10
 MATH_OPERATIONS = ['+', '-', '*']
 
 # game description
-DESCRIPTION_PRIME = 'Answer "yes" if given number is prime.'\
+DESCRIPTION_PRIME = 'Answer "yes" if given number is prime. '\
                     'Otherwise answer "no".'
 DESCRIPTION_EVEN = 'Answer "yes" if the number is even, otherwise answer "no".'
 DESCRIPTION_GCD = 'Find the greatest common divisor of given numbers.'
