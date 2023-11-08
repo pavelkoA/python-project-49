@@ -1,6 +1,6 @@
 from brain_games.utils import get_random_number
 from brain_games.engine import run_game
-from brain_games.constant import DESC_PRIME
+from brain_games.constant import DESCRIPTION_PRIME
 
 
 def is_prime(number):
@@ -16,5 +16,5 @@ def get_required_number_and_answer():
     return problem_number, str(correct_answer)
 
 
-def start_game_prime():
-    run_game(DESC_PRIME, get_required_number_and_answer)
+def run_game_prime():
+    run_game(DESCRIPTION_PRIME, get_required_number_and_answer)

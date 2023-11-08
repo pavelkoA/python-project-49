@@ -1,7 +1,7 @@
 import math
 from brain_games.utils import get_random_number
 from brain_games.engine import run_game
-from brain_games.constant import DESC_GCD
+from brain_games.constant import DESCRIPTION_GCD
 
 
 def get_gcd(number_first, number_second):
@@ -15,5 +15,5 @@ def get_numbers_and_gcd():
     return numbers_string, str(correct_answer)
 
 
-def start_game_gcd():
-    run_game(DESC_GCD, get_numbers_and_gcd)
+def run_game_gcd():
+    run_game(DESCRIPTION_GCD, get_numbers_and_gcd)
