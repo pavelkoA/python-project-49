@@ -10,9 +10,9 @@ def get_gcd(number_first, number_second):
 
 def get_numbers_and_gcd():
     number_first, number_second = get_random_number(), get_random_number()
-    correct_answer = get_gcd(number_first, number_second)
-    numbers_string = f'{number_first} {number_second}'
-    return numbers_string, str(correct_answer)
+    gsd = get_gcd(number_first, number_second)
+    pair_numbers = f'{number_first} {number_second}'
+    return pair_numbers, str(gsd)
 
 
 def run_game_gcd():
