@@ -3,27 +3,22 @@ from brain_games.engine import run_game
 from brain_games.constant import PROGRES_LENGTH, DESCRIPTION_PROGRESSION
 
 
-def get_progression_list(start_number, step):
-    return [start_number + step * (number - 1)
-            for number in range(PROGRES_LENGTH)]
-
-
-def get_progression_with_missing_number(progression_list,
-                                        response_index):
-    progression_list[response_index] = '..'
-    return progression_list
+def generate_progression_list(start_number, step, progres_length):
+    return [start_number + step * (number)
+            for number in range(progres_length)]
 
 
 def get_progression_str_and_missed_num():
     start_number_progression = get_random_number()
     step_progression = get_random_number(end_num=10)
-    progression_list = get_progression_list(start_number_progression,
-                                            step_progression)
-    response_index = get_random_number(end_num=PROGRES_LENGTH - 1)
-    correct_answer = progression_list[response_index]
-    progression_string = get_progression_with_missing_number(progression_list,
-                                                             response_index)
-    return " ".join(map(str, progression_string)), str(correct_answer)
+    progression_list = generate_progression_list(start_number_progression,
+                                                 step_progression,
+                                                 PROGRES_LENGTH)
+    hidden_index = get_random_number(start_num=0,
+                                     end_num=PROGRES_LENGTH - 1)
+    missed_num = progression_list[hidden_index]
+    progression_list[hidden_index] = '..'
+    return " ".join(map(str, progression_list)), str(missed_num)
 
 
 def run_game_progression():

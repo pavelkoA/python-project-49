@@ -13,7 +13,7 @@ def is_prime(number):
 def get_required_number_and_answer():
     problem_number = get_random_number(start_num=2)
     correct_answer = 'yes' if is_prime(problem_number) else 'no'
-    return problem_number, str(correct_answer)
+    return problem_number, correct_answer
 
 
 def run_game_prime():

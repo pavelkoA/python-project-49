@@ -10,7 +10,7 @@ def is_even(number):
 def get_problem_num_and_answer():
     problem_number = get_random_number()
     correct_answer = 'yes' if is_even(problem_number) else 'no'
-    return problem_number, str(correct_answer)
+    return problem_number, correct_answer
 
 
 def run_game_even():
